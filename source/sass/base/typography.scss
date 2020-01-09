@@ -1,0 +1,10 @@
+// Текстовые стили, размеры шрифтов и тд
+body {
+  @include defaultFont(400, normal);
+  font-size: $font-size-base;
+  line-height: $line-height;
+}
+
+a {
+  text-decoration: none;
+}

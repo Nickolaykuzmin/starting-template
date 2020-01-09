@@ -1,0 +1,16 @@
+// Цвета
+$color-base: #444444;
+$color-brand: #63d1bb;
+
+// Свойства шрифтов
+$font-size-base: 14px;
+$line-height: 1;
+
+// Значения вьюпортов
+$tablet-width: 768px;
+$mobile-width-only: $tablet-width - 1;
+$desktop-width: 1150px;
+
+// Ретинизация
+$retina_dpi: 144dpi;
+$retina_dppx: 1.5dppx;

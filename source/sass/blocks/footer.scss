@@ -1,0 +1,5 @@
+.footer__inner {
+  @media (min-width: $tablet-width) {
+    @include inner;
+  }
+}

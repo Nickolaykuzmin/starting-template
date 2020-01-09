@@ -1,0 +1,11 @@
+// Подключение шрифтов
+@font-face {
+  font-family: "", "Arial", sans-serif;
+  src:
+    url("") format("eot"),
+    url("") format("ttf"),
+    url("") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
