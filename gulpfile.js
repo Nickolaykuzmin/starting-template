@@ -87,7 +87,7 @@ gulp.task("webp", function () {
 
 // Сжимаем иконки и создаём спрайт из них
 gulp.task("sprite", function () {
-  return gulp.src("source/img/icon-*.svg")
+  return gulp.src("source/img/sprite-svg/*.svg")
     .pipe(imagemin([
       imagemin.svgo()
     ]))
@@ -103,8 +103,7 @@ gulp.task("copy", function () {
   return gulp.src([
       "source/fonts/**/*.{woff,woff2}",
       "source/img/**/*.{jpg,png,webp}",
-      "source/img/logo-*.svg",
-      "source/img/icon-bg-zigzag-*.svg"
+      "source/img/logo-*.svg"
     ], {
       base: "source"
     })

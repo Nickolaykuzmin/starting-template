@@ -12,17 +12,19 @@
   }
 }
 
+@mixin defaultFont($weight, $style, $size, $line, $letter) {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: $weight;
+  font-style: $style;
+  font-size: $size;
+  line-height: $line;
+  letter-spacing: $letter;
+}
+
 @mixin reset-list {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-
-@mixin defaultFont($weight, $style) {
-  font-family: "", "Arial", sans-serif;
-  font-weight: $weight;
-  font-style: $style;
 }
 
 // @mixin button-style {
