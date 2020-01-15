@@ -14,3 +14,10 @@ $desktop-width: 1150px;
 // Ретинизация
 $retina_dpi: 144dpi;
 $retina_dppx: 1.5dppx;
+
+// Ретинизация bg image
+// @media (min-resolution: $retina_dpi), (min-resolution: $retina_dppx) {
+//   . {
+//     background-image: url("../img/@2x.jpg") no-repeat center top rgb(249, 249, 249);
+//   }
+// }
