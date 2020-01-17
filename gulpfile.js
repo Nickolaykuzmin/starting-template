@@ -102,8 +102,7 @@ gulp.task("sprite", function () {
 gulp.task("copy", function () {
   return gulp.src([
       "source/fonts/**/*.{woff,woff2}",
-      "source/img/**/*.{jpg,png,webp}",
-      "source/img/logo-*.svg"
+      "source/img/**"
     ], {
       base: "source"
     })
